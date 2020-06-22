@@ -1,0 +1,17 @@
+{
+  "name": "dijkstra-ts",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "clean": "shx rm -Rf dist",
+    "build": "yarn clean && tsc",
+    "start": "ts-node ./src/index.ts"
+  },
+  "dependencies": {
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.5"
+  },
+  "devDependencies": {
+    "shx": "^0.3.2"
+  }
+}
